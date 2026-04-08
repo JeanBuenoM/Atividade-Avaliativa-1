@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <string.h>
+
+typedef struct {
+    char titulo[30];
+    char autor[15];
+    int ano;
+} Livro;
+
+int main() {
+    Livro livros[5];
+    char busca[30];
+
+    for(int i = 0; i < 5; i++) {
+        printf("Titulo: ");
+        scanf("%s", livros[i].titulo);
+        printf("Autor: ");
+        scanf("%s", livros[i].autor);
+        printf("Ano: ");
+        scanf("%d", &livros[i].ano);
+    }
+
+    printf("Buscar titulo: ");
+    scanf("%s", busca);
+
+    for(int i = 0; i < 5; i++) {
+        if(strcmp(busca, livros[i].titulo) == 0) {
+            printf("%s %s %d\n", livros[i].titulo, livros[i].autor, livros[i].ano);
+        }
+    }
+
+    return 0;
+}
