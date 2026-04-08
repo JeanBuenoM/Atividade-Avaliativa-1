@@ -1,4 +1,6 @@
-Esses exercícios têm como objetivo treinar conceitos fundamentais da linguagem C, como leitura de dados, vetores, matrizes, structs, ponteiros, funções e alocação dinâmica. No primeiro exercício, o programa lê três palavras e imprime na ordem inversa. A lógica é simples: você armazena cada palavra em uma variável e apenas muda a ordem na hora de exibir. Isso mostra que a ordem de saída pode ser diferente da ordem de entrada.
+Esses exercícios têm como objetivo treinar conceitos fundamentais da linguagem C, como leitura de dados, vetores, matrizes, structs, ponteiros, funções e alocação dinâmica. 
+
+No primeiro exercício, o programa lê três palavras e imprime na ordem inversa. Você armazena cada palavra em uma variável e apenas muda a ordem na hora de exibir. Isso mostra que a ordem de saída pode ser diferente da ordem de entrada.
 
 No segundo exercício, é utilizado um vetor de 5 posições para armazenar números inteiros digitados pelo usuário. Após preencher o vetor, o programa imprime os valores de trás para frente. Isso reforça o conceito de índices de vetor, que começam em zero, e o uso de laços para percorrer dados em ordem inversa.
 
